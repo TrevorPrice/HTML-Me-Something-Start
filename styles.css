@@ -1,1 +1,26 @@
 /* Write your CSS here! */
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+h1 {
+    text-align: center;
+}
+
+.list {
+    text-align: center;
+    padding-left: 0;
+    list-style-position: inside; 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+}
