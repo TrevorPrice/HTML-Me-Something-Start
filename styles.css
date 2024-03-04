@@ -1,13 +1,38 @@
 /* Write your CSS here! */
 body {
-    background-color: rgb(230, 230, 230);
+    margin: 8px;
+    margin: auto;
+    display: block;
+    max-width: 1024px;
+    background-color: rgb(95, 67, 67);
 }
 
-h1 {
+header, main, footer {
+    padding: 1.875em;
+    background-color: rgb(255, 255, 255)
+}
+
+#mainHeading {
+    color: red;
     text-align: center;
+    font-family: monospace;
+    margin: 0%;
+}
+
+.funParagraph {
+    color: green;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 2.5em;
+    margin: 0;
 }
 
 .list {
+    color: skyblue;
     text-align: center;
     padding-left: 0;
     list-style-position: inside; 
@@ -17,10 +42,29 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 75%;
 }
 
 figcaption {
-    display: block;
     text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+a {
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+ul {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    font-family: monospace;
+    padding: 3em;
+    font-size: 16px;
 }

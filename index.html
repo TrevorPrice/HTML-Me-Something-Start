@@ -8,18 +8,12 @@
    <body>
       <!-- Write your HTML in this file! -->
       <header>
-         <h1>Hello, World!</h1>
+         <h1 id="mainHeading">Hello, World!</h1>
          <nav>
             <ul class="list">
-               <li>
-                  <a href="#story">My Story</a>
-               </li>
-               <li>
-                  <a href="#experience">My Experience</a>
-               </li>
-               <li>
-                  <a href="#school">Schooling</a>
-               </li>
+               <li><a href="#story">My Story</a></li>
+               <li><a href="#experience">My Experience</a></li>
+               <li><a href="#school">Education and Certifications</a></li>
             </ul>
          </nav>
       </header>
@@ -28,19 +22,24 @@
             <section>
                <a name="story"></a>
                <h2>My Story</h2>
-               <p>
+               <p id="testP" class="funParagraph">
                   My name is Trevor Price and I am an asipring coder and web developer. I began my coding journey in December 2023 through LaunchCode. Prior to enrolling in LaunchCode, I had zero experience with coding.
                   My two biggest passions in life have always been music and computers. I built my first computer in 2015 and started playing guitar in 2008. Growing up, I wanted to be a musician and work a job where I would get paid to create music.
                   Whether that meant that I would become a famous, guitar playing rockstar or some behind the scenes producer, I just wanted to create music. This drive would eventually lead me to enroll at Johnson County Community College (JCCC) in Overland Park, KS.
-                  I would go on to graduate with my associate degree as well as a certificate in recording arts. I learned how to record, produce, mix and master music. I even had a song that I helped produce played on the radio! Despite all of this, I began to realize how hard it would be to get a job in the 
+                  I would go on to graduate with my associate degree as well as a certificate in recording arts. I learned how to record, produce, mix and master music. I even had a song that I helped record and produce played on the radio! Despite all of this, I began to realize how hard it would be to get a job in the 
                   music industry. While I still play and produce music in my free time, I've shifted my focus to finding a career in a more practical field. I worked at a bank in the mortgage department from 2020 through 2023 and have also been a server and bartender for the past 7+ years,
                   while also now having managerial experience at the current restaurant I work at. I believe that my experience and creativity in music, combined with being able to work in a fast paced and deadline driven industry will be able to help me in my journey as I learn to code.
                </p>
                <figure>
-                  <img src="./images/Studio.jpg" alt="studio" class="center">
-                  <figcaption>
-                     Me in the studio at JCCC recording a friend's song.
-                  </figcaption>
+                  <img src="./images/Studio.jpg" alt="studio" class="center" />
+                  <figcaption>Recording my friend's song in the studio at JCCC.</figcaption>
+               </figure>
+               <figure>
+               <audio controls class="center">
+                  <source src="./audio/Ethereal (Radio Edit).mp3" type="audio/mpeg">
+               </audio>
+               <figcaption>Buyer Beware. Ethereal. 2022.</figcaption>
+               <a href="https://open.spotify.com/artist/5hxdjOtT6nF5Z9bZc5QBBm" class="center">Buyer Beware Spotify Page</a>
                </figure>
             </section>
             <section>
@@ -48,17 +47,36 @@
                <h2>My Experience</h2>
                <ul>
                   <li>
-                     Tanner's Bar and Grill 2017 - present
+                     Tanner's Bar and Grill: November 2017 - present
                         <ul>
                            <li>Server, bartender, manager</li>
-                           <li></li>
+                           <li>Open and close bar</li>
+                           <li>Manager duties such as handling money, reports for the day, manage liquor inventory</li>
+                           <li>Special event coordination</li>
+                           <li>Train new servers</li>
+                        </ul>
+                  </li>
+                  <br>
+                  <li>
+                     nbkc bank: March 2020 - August 2023
+                        <ul>
+                           <li>Loan Orders Specialist, Servicing Assistant</li>
+                           <li>Maintained communication with loan officers as well as borrowers</li>
+                           <li>Completion of paid in full loans and subservicing reports using Excel</li>
+                           <li>Verified daily trade reports and data were recorded accurately</li>
+                           <li>Balanced purchase advise reports and reconciled loans</li>
                         </ul>
                   </li>
                </ul>
             </section>
             <section>
                <a name="school"></a>
-               <h2>Schooling</h2>
+               <h2>Education and Certifications</h2>
+               <ul>
+                  <li>LaunchCode - Full Stack Developer LC 101 Web Dev - January 2024 - August 2024</li>
+                  <li>Johnson County Community College - Recording Arts Certificate - 2018</li>
+                  <li>Johnson County Community College - Associates of General Studies &amp; Associates of Liberal Arts - 2016</li>
+               </ul>
             </section>
          </article>
       </main>
